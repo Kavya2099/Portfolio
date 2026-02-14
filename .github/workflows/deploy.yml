@@ -2,7 +2,7 @@ name: Deploy Portfolio
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 permissions:
   contents: read
