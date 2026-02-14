@@ -1,532 +1,1382 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kavya Portfolio</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kavya - Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="s.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#projects">Data Science Projects</a>
-            </li>
-            <li>
-                <a href="#BIprojects">BI Projects</a>
-            </li>
 
-            <li>
-                <a href="#virtual">Virtual Internships</a>
-            </li>
-           <!-- <li>
-                <a href="#experience">Experience</a>
-            </li> -->
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Kavya (1).png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kavya D">Kavya D</h1>
+          <p class="title">AI Engineer | Generative AI</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:d.kavya1999@gmail.com" class="contact-link">d.kavya1999@gmail.com</a>
+            </div>
+
+          </li>
+
+          <!--<li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>-->
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-04-20">April 20, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bangalore, India</address>
+            </div>
+
+          </li>
+
         </ul>
-    </header>
-    <!-- End header -->
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Kavya</h1>
-            <!-- <h2>Data Science</h2> -->
-            <i><h4>"Believe you can and you're halfway there." - Theodore Roosevelt</h4></i>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-7 social">
-                <ul>
-                    <li>
-                        <a href="https://github.com/Kavya2099" target="_blank"><i class="fa fa-github-square fa-2x"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://medium.com/@Kavya2099" target="_blank"><i class="fa fa-medium fa-2x"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/Kavya2099/" target="_blank"><i class="fa fa-linkedin fa-2x"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    
-                   <!-- <li>
-                        <a href="https://www.kaggle.com/kavya2099" target="_blank"><i class="fa fa-kaggle fa-2x"
-                                aria-hidden="true"></i></a>
-                    </li>-->
-    
-                </ul>
-            </div>
-            </div>
-        </div>
+        <div class="separator"></div>
 
-            <a href="resume\Kavya D Resume -AI.pdf" class="btn-rounded-white">Download Resume</a>
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/Kavya2099/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://medium.com/@Kavya2099" class="social-link" target="_blank">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Kavya2099" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p style="text-align: justify;">
+            Hello! I'm <strong>Kavya</strong>, an <strong>AI and Data professional</strong> with a background in
+            software testing and analytics. Currently working as an <strong>AI Engineer</strong>, I focus on building
+            data-driven solutions using <strong>Gen AI, LLMs, Machine Learning, SQL, Power BI, and Python</strong>. I
+            hold a
+            Bachelor's degree in <strong>Electrical and Electronics Engineering</strong>.
+            <br><br>
+
+            My recent work and interests are centered around <strong>Generative AI and LLM-based applications</strong>,
+            including chatbot development, <strong>Retrieval-Augmented Generation (RAG)</strong>, and enterprise AI
+            solutions. <br><br>
+
+            I actively share my learning through technical blogs on <strong>Medium</strong>, contributing to the data
+            and AI community. Beyond technology, I am an <strong>Artist</strong> and <strong>Calligrapher</strong>,
+            reflecting my creativity and attention to detail.
+            <br><br>
+
+            I am passionate about growing as an <strong>AI Engineer</strong> and contributing to innovative AI-driven
+            solutions.
+          </p>
+        </section>
+
+
+
+        <!--  service -->
+
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item" onclick="this.classList.toggle('active')">
+
+              <div class="service-icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Languages & Tools</h4>
+              </div>
+
+              <div class="service-skill-tags">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">PowerBI</span>
+                <span class="skill-tag">FastAPI</span>
+              </div>
+
+            </li>
+
+            <li class="service-item" onclick="this.classList.toggle('active')">
+
+              <div class="service-icon-box">
+                <ion-icon name="library-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science Libraries</h4>
+              </div>
+
+              <div class="service-skill-tags">
+                <span class="skill-tag">Pandas</span>
+                <span class="skill-tag">NumPy</span>
+                <span class="skill-tag">Seaborn</span>
+                <span class="skill-tag">Scikit-Learn</span>
+                <span class="skill-tag">Matplotlib</span>
+                <span class="skill-tag">Keras</span>
+              </div>
+
+            </li>
+
+            <li class="service-item" onclick="this.classList.toggle('active')">
+
+              <div class="service-icon-box">
+                <ion-icon name="analytics-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science Techniques</h4>
+              </div>
+
+              <div class="service-skill-tags">
+                <span class="skill-tag">Data Preprocessing</span>
+                <span class="skill-tag">EDA</span>
+                <span class="skill-tag">Data Visualization</span>
+                <span class="skill-tag">Data Analysis</span>
+                <span class="skill-tag">Feature Engineering</span>
+              </div>
+
+            </li>
+
+            <li class="service-item" onclick="this.classList.toggle('active')">
+
+              <div class="service-icon-box">
+                <ion-icon name="git-network-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+              </div>
+
+              <div class="service-skill-tags">
+                <span class="skill-tag">Supervised Learning</span>
+                <span class="skill-tag">Regression</span>
+                <span class="skill-tag">Classification</span>
+                <span class="skill-tag">Predictive Learning</span>
+                <span class="skill-tag">Deep Learning</span>
+                <span class="skill-tag">CNN</span>
+                <span class="skill-tag">NLP</span>
+              </div>
+
+            </li>
+
+            <li class="service-item" onclick="this.classList.toggle('active')">
+
+              <div class="service-icon-box">
+                <ion-icon name="sparkles-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gen AI</h4>
+              </div>
+
+              <div class="service-skill-tags">
+                <span class="skill-tag">Azure OpenAI</span>
+                <span class="skill-tag">Chatbot</span>
+                <span class="skill-tag">Prompt Engineering</span>
+                <span class="skill-tag">RAG</span>
+                <span class="skill-tag">LangChain</span>
+                <span class="skill-tag">LLM</span>
+                <span class="skill-tag">GCP Vertex AI</span>
+              </div>
+
+            </li>
+
+            <li class="service-item" onclick="this.classList.toggle('active')">
+
+              <div class="service-icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database</h4>
+              </div>
+
+              <div class="service-skill-tags">
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">Cosmos DB</span>
+                <span class="skill-tag">Redis</span>
+                <span class="skill-tag">BigQuery</span>
+                <span class="skill-tag">GCS</span>
+                <span class="skill-tag">PostgreSQL</span>
+              </div>
+
+            </li>
+
+            <li class="service-item" onclick="this.classList.toggle('active')">
+
+              <div class="service-icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Project Management</h4>
+              </div>
+
+              <div class="service-skill-tags">
+                <span class="skill-tag">Jira</span>
+                <span class="skill-tag">Azure DevOps (ADO) Boards</span>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!-- testimonials -->
+
+
+        <!-- Testimonials section (commented out) -->
+        <!--
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+        -->
+
+
+
+        <!-- testimonials modal -->
+
+
+        <!-- Testimonials modal (commented out) -->
+        <!--
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
         </div>
+        -->
+
+
+
+        <!--  clients
         
-        <!-- End #lead-content -->
 
-        <div id="lead-overlay"></div>
+         Clients section (commented out) -->
+        <!--
+        <section class="clients">
 
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
+          <h3 class="h3 clients-title">Clients</h3>
 
-    <div id="about" class="background-alt">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Hello! I'm <strong>Kavya!</strong>I'm a self-taught Data & AI Enthusiast with Testing background. I am highly ambitious and self-motivated, always eager to expand my knowledge of Data & AI concepts. I hold a Bachelor's degree in <strong>Electrical and Electronics Engineering</strong>.
-                        <br>
-                        <br>
-                        In my learning journey, I prefer working with <strong>Python</strong> and utilize platforms such as <strong> Google Colab and Kaggle and VS code</strong>. I primarily rely on free and open-source resources like <strong>Coursera, Kaggle, YouTube, Medium, Google's ML programs, Microsoft Data Science programs, GitHub, LinkedIn, and extensive online research </strong>. I firmly believe in the immense potential of these open-source resources to create wonders.
-                        <br>
-                        <br>
-                        Aside from my passion for data science, I also enjoy writing articles. Currently, I am publishing blogs on <strong>Medium</strong>, where I share the concepts and insights I have gained. It's my way of giving back to the community that has taught me so much!  Additionally, I am an <strong>Artist</strong> and <strong>Calligrapher</strong>, pursuing these creative passions alongside my data science endeavors : )
-                        <br>
-                        <br>
-                        I'm always looking for new opportunities to learn and grow, and I'm excited to see what the future holds for me in data science!
-                        
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+        -->
+
+      </article>
 
 
-                    </p>
-                </div>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
-        </div>
-    </div>
-    <!-- End #about -->
 
+            <h3 class="h3">Education</h3>
+          </div>
 
-    <div id="projects" >
-        <h2 class="heading">Data Science Projects</h2>
-        <div class="container">
-            <div class="row">
-                
-                               
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images\eda.gif" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>EDA on the Online Payment Fraud Detection</h3>
-                        <p>
-                            Exploratory Data Analysis and Data Visualization on the Online Payment Fraud Detection using Python.
-                        </p>
-                        <a
-                            href="https://github.com/Kavya2099/Exploratory-Data-Analysis-on-Online-Payment-Fraud-Detection">View
-                            Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
+          <ol class="timeline-list">
 
-             <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images\phones.gif" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Used Phones Pricing Analysis and Prediction</h3>
-                        <p>
-                            Building a regression model to predict the price of used phones that could be helpful in reselling the used phones.
-                        </p>
-                        <a
-                            href="https://github.com/Kavya2099/Used-phone-price-prediction">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                
-                 <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images\heart.gif" />
-                    </div>
-                    <!-- End .project-image -->
-                
-                            <div class="project-info">
-                        <h3>Heart Attack Analysis & Prediction</h3>
-                        <p>
-                            Predicting whether a patient has chance of getting heart attack or not based on the clinical parameters using Classification algorithms. 
-                        </p>
-                        <a href="https://github.com/Kavya2099/Heart-Attack-Analysis-Prediction">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- Projects Above -->
-                <a id="view-more-projects" href="#">View More Projects</a>
-                <div id="more-projects" class="row">
-                    
-                    
-                     <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images\webscraping.gif" title="The Anonymous Red" alt="" /></a>
-                        <!-- End .project-image -->
-                    </div>
-                    <div class="project-info">
+            <li class="timeline-item">
 
-                        <h3>Asian games athletics web scraping</h3>
-                        <p>
-                            Web scraping project on the list of countries who bagged medals in atletics from the year 1951-2022 using Beautiful Soup and Python.
-                        </p>
-                        <a href="https://github.com/Kavya2099/Asian-games-athletics-web-scraping">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-    
-                    <div class="project shadow-large">
-                        <div class="project-image">
-                            <img src="images\car.gif" />
-                        </div>
-                        <!-- End .project-image -->
-                        <div class="project-info">
-                            <h3>Car Price Prediction</h3>
-                            <p>
-                                Predicting the price of the car using Regression algorithms. Performing EDA and trying out different types of regerssion algorithms and picking up the best model based on based on Mean Absolute Error (MAE) and Mean Squared Error(MSE).
-                            </p>
-                            <a href="https://github.com/Kavya2099/Car-Price-Prediction">View Project</a>
-                        </div>
-                        <!-- End .project-info -->
-                    </div>
-                    <div class="project shadow-large">
-                        <div class="project-image">
-                            <img src="images\movie.gif" />
-                        </div>
-                        <!-- End .project-image -->
-                        <div class="project-info">
-                            <h3>Movie Recommendation System</h3>
-                            <p>
-                                Creating movie recommendation system based on content based filtering and collaborative based filtering on Movie Lens dataset
-                            </p>
-                            <a href="https://github.com/Kavya2099/recommendation-system">View Project</a>
-                        </div>
-                        <!-- End .project-info -->
-                    </div>
+              <h4 class="h4 timeline-item-title">B.E in Electrical and Electronics Engineering</h4>
 
-                    <div class="project shadow-large">
-                        <div class="project-image">
-                            <img src="images\churn.gif" />
-                        </div>
-                        <!-- End .project-image -->
-                        <div class="project-info">
-                            <h3>Customer Churn Prediction</h3>
-                            <p >
-                                Predicting customer churn based on Classification algorithms. Performing EDA and trying out different types of classification algorithms and picking up the best model based on maximum Accuracy.
-                            </p>
-                            <a href="https://github.com/Kavya2099/Customer-Churn-Prediction">View Project</a>
-                        </div>
-                        <!-- End .project-info -->
-                    </div>
-                    <!-- End .project -->
+              <span>2016 — 2020</span>
 
+              <p class="timeline-text">
+                Sri Venkateswara College of Engineering, Sriperumbudur | CGPA: <strong
+                  style="font-weight: 800; color: var(--orange-yellow-crayola);">9.43</strong>
+              </p>
 
-                </div>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
-        </div>
-    </div>
-    <!-- End #projects -->
 
-    
-    <div id="BIprojects" class="background-alt">
-        <center>
-        <h2 class="heading">BI Projects</h2>
-    </center>
-        <div class="container">
-            <div class="row">
-                
-                               
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images\sales.gif" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <center>
-                        <h3>Atliq Technologies Sales Insights</h3>
-                        </center>
-                        <p>
-                            A sales insights BI Dashboard created to address challenges in comprehending business performance due to declining sales and inadequate reports from regional managers.
-                        </p>
-                        <div style="display: inline-block;">
-                      <a
-                            href="https://medium.com/@Kavya2099/improving-sales-insights-with-power-bi-1430eee90fb6">View
-                            Project</a> </div>
-                        
-                        <div style="display: inline-block; margin-left: 150px;">
-                          <a
-                            href="https://www.novypro.com/project/atliq-sales-insights-project">Dashboard</a>
-                        </div>
-                        </div>
-                    <!-- End .project-info -->
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">System Engineer | Tata Consultancy Services, Bangalore</h4>
+
+              <span>Oct 2024 — Present</span>
+
+              <ul class="timeline-text">
+                <li><strong>GenAI Chatbots:</strong> Contributed to GenAI initiatives at Lloyds Banking Group, building
+                  enterprise-grade chatbots using GCP Gemini LLM, LangChain, RAG, PostgreSQL, and FastAPI microservices.
+                </li>
+                <li><strong>Data Discovery:</strong> Built a GenAI Data Discovery chatbot enabling natural-language
+                  querying across enterprise datasets with a router agent for structured and unstructured queries.</li>
+                <li><strong>DOI Chatbot:</strong> Developed and deployed a Declaration of Intent (DOI) chatbot that
+                  guides users in completing compliance forms, with scalable data ingestion and multi-environment
+                  deployments.</li>
+                <li><strong>Data Contract:</strong> Designed a compliance automation solution for detecting
+                  Personally Identifiable Data Categories (PDC) via automated scripts and API-based microservices.</li>
+                <li><strong>AIOps Support:</strong> Supported the Cortex AI platform (AIOps) by onboarding users,
+                  resolving queries, and delivering a GenAI-powered chatbot POC for intelligent document access.</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI/ML Computational Science Analyst | Accenture, Chennai</h4>
+
+              <span>Feb 2023 — Sep 2024</span>
+
+              <ul class="timeline-text">
+                <li><strong>Finance Chatbot:</strong> Developed a Gen AI-driven Finance Chatbot to assist the corporate
+                  finance team with financial queries, improving customer service efficiency.</li>
+                <li><strong>InnovateGPT:</strong> Built a chatbot converting natural language inputs into SQL queries
+                  for patent innovation data retrieval from BigQuery.</li>
+                <li><strong>RAI Assistant:</strong> Contributed to a virtual Responsible AI (RAI) assistant for RAI
+                  assessment, principles, policies, and compliance queries.</li>
+                <li><strong>Questionnaire POC:</strong> Developed a POC that auto-generates personalized questionnaires
+                  from client inputs, identifying risks and providing recommendations.</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Application Development Associate | Accenture, Chennai</h4>
+
+              <span>Jan 2021 — Feb 2023</span>
+
+              <ul class="timeline-text">
+                <li><strong>System Upgrade:</strong> Worked on Air Cargo Reservation and Capacity Application upgrade
+                  from v6.0 to v8.1 as part of Accenture Freight Logistics Service (AFLS).</li>
+                <li><strong>Testing Optimization:</strong> Reduced testing time by 20% and improved defect detection
+                  rate by 15% through data-driven analysis and collaboration with cross-functional teams.</li>
+              </ul>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Gen AI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Science</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>BI</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Gen AI</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Science</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>BI</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="gen ai">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Gen AI</p>
+
+              </a>
+            </li>
+            -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+            -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="bi">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">BI</p>
+
+              </a>
+            </li>
+            -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="gen ai">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Gen AI</p>
+
+              </a>
+            </li>
+            -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+            -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="bi">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">BI</p>
+
+              </a>
+            </li>
+            -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="gen ai">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Gen AI</p>
+
+              </a>
+            </li>
+            -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+            -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="bi">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">BI</p>
+
+              </a>
+            </li>
+            -->
+
+            <li class="project-item  active" data-filter-item data-category="bi">
+              <a href="https://www.novypro.com/project/atliq-sales-insights-project" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/sales.gif" alt="Atliq Technologies Sales Insights" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sales Insights</h3>
+
+                <p class="project-category">BI</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="bi">
+              <a href="https://www.novypro.com/project/atliq-hr-analysis" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/HR.gif" alt="Atliq Technologies HR Analytics" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HR Analytics</h3>
+
+                <p class="project-category">BI</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/Kavya2099/Exploratory-Data-Analysis-on-Online-Payment-Fraud-Detection"
+                target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="images/eda.gif" alt="EDA on Online Payment Fraud Detection" loading="lazy">
+                </figure>
+                <h3 class="project-title">Fraud Detection</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/Kavya2099/Used-phone-price-prediction" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="images/phones.gif" alt="Used Phones Pricing Analysis" loading="lazy">
+                </figure>
+                <h3 class="project-title">Used Phone Pricing</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/Kavya2099/Heart-Attack-Analysis-Prediction" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="images/heart.gif" alt="Heart Attack Analysis & Prediction" loading="lazy">
+                </figure>
+                <h3 class="project-title">Heart Attack Prediction</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/Kavya2099/Asian-games-athletics-web-scraping" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="images/webscraping.gif" alt="Asian games athletics web scraping" loading="lazy">
+                </figure>
+                <h3 class="project-title">Asian Games Scraping</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/Kavya2099/Car-Price-Prediction" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="images/car.gif" alt="Car Price Prediction" loading="lazy">
+                </figure>
+                <h3 class="project-title">Car Price Prediction</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/Kavya2099/recommendation-system" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="images/movie.gif" alt="Movie Recommendation System" loading="lazy">
+                </figure>
+                <h3 class="project-title">Movie Recommender</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/Kavya2099/Customer-Churn-Prediction" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="images/churn.gif" alt="Customer Churn Prediction" loading="lazy">
+                </figure>
+                <h3 class="project-title">Customer Churn</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@Kavya2099/the-lazy-way-to-win-at-machine-learning-introducing-lazy-predict-f484e004dcd0"
+                target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/blog-1.png" alt="The Lazy Way to Win at Machine Learning" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Machine Learning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-05-17">May 17, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The Lazy Way to Win at Machine Learning: Introducing Lazy Predict</h3>
+
+                  <p class="blog-text">
+                    Low code python ML library that helps in finding which model works better without tuning
+                  </p>
+
                 </div>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images\HR.gif" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <center>
-                        <h3>Atliq Technologies HR Analytics</h3>
-                        </center>
-                        <p>
-                            A HR Analtics BI Dashboard created to monitor employee presence and identifying patterns of absenteeism.
-                        </p>
-                        <div style="display: inline-block;">
-                      <a
-                            href="https://medium.com/@Kavya2099/from-data-to-decisions-revolutionizing-hr-analytics-with-power-bi-8803e6da1a9b">View
-                            Project</a> </div>
-                        
-                        <div style="display: inline-block; margin-left: 150px;">
-                          <a
-                            href="https://www.novypro.com/project/atliq-hr-analysis">Dashboard</a>
-                        </div>
-                        </div>
-                    <!-- End .project-info -->
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@Kavya2099/optimizing-performance-selectkbest-for-efficient-feature-selection-in-machine-learning-3b635905ed48"
+                target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/blog-2.png"
+                    alt="Optimizing Performance: SelectKBest for Efficient Feature Selection" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Machine Learning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-02-15">Feb 16, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Streamlining Data Analysis with SelectKBest Feature Selection
+
+                  </h3>
+
+                  <p class="blog-text">
+                    Efficient feature selection method that identifies top 'K' features using statistical scores to
+                    improve model performance.
+                  </p>
+
                 </div>
 
+              </a>
+            </li>
 
-             
+            <li class="blog-post-item">
+              <a href="https://medium.com/@Kavya2099/improving-sales-insights-with-power-bi-1430eee90fb6"
+                target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/blog-3.png" alt="Improving Sales Insights with Power BI" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Business Intelligence</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-02-26">Feb 26, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Improving Sales Insights with Power BI</h3>
+
+                  <p class="blog-text">
+                    Transforming fragmented Excel reports into actionable Power BI dashboards for identifying sales
+                    trends and profit margins.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@Kavya2099/from-data-to-decisions-revolutionizing-hr-analytics-with-power-bi-8803e6da1a9b"
+                target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/blog-4.png" alt="Revolutionizing HR Analytics with Power BI" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Business Intelligence</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-02-25">Feb 25, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">From Data to Decisions: Revolutionizing HR Analytics with Power BI</h3>
+
+                  <p class="blog-text">
+                    Leveraging Power BI to transform HR data into meaningful insights for attrition analysis and
+                    workforce optimization.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!--
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            -->
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://maps.google.com/maps?q=Whitefield%2C%20Bangalore%2C%20India&z=14&output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form method="POST" action="https://formspree.io/f/mrgvgbdl" class="form" data-form>
+
+            <input type="hidden" name="_subject" value="Contact request from personal website" />
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="_replyto" class="form-input" placeholder="Email address" required
+                data-form-input>
             </div>
-        </div>
-    </div>
 
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
 
-    <div id="virtual" >
-        <center>
-            <h2 class="heading">Virtual Internships</h2>
-        </center>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images\nsw.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <center>
-                            <h3>NSW Government Data Analytics virtual internship</h3>
-                        </center>
-                        <p>
-                            Data Analytics virtual internship program by NSW Government through Forage. This internship is about to analyse workforce data and report on trends in part-time working.
-                        </p>
-                        <center> <a
-                                href="https://github.com/Kavya2099/NSW-Government-Data-Analytics-Virtual-Program">View</a>
-                        </center>
-                    </div>
-                    <!-- End .project-info -->
+          </form>
 
+        </section>
 
-                </div>
-
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images\ba.jpg" alt="" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <center>
-                            <h3>British Airways Data science virtual internship</h3>
-                        </center>
-                        <p >
-                            Data science virtual internship programme by British Airways through Forage. This internship is about analyzing customer reviews using sentimental analysis and highlighting our insights and analysis.
-                        </p>
-                        <center> <a href="https://github.com/Kavya2099/British-Airways-virtual-internship">View</a>
-                        </center>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <!-- <div class="education-block">
-                        <h3>University of Ottawa</h3>
-                        <span class="education-date">Sept 2016 - Sept 2017</span>
-                        <h4>Bachelor of Science in Computer Science</h4>
-                        <ul>
-                            <li>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </li>
-                            <li>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </li>
-                            <li>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </li>
-                        </ul>
-                        </div> -->
-            </div> <!-- End .education-block -->
-
-        </div>
+      </article>
 
     </div>
 
+  </main>
 
 
 
 
 
 
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
-<!--
-    <div id="experience"  class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="January 2021 – Present">
-                <h3>Accenture</h3>
-                <h4>Software Engineer</h4>
-                <p>
-                    <strong> Contributed to the design and implementation of Gen AI-driven chatbot solutions as a Developer</strong>
-                <ul>
-                    <li>
-                        Utilized Python coding skills to design, develop, and optimize chatbot functionalities, including the integration of OpenAI models to improve conversational responses and application of prompt engineering concepts.
-                    </li>
-                    <li>
-                        Leveraged Azure cloud services for scalable and efficient deployment of the chatbot, ensuring seamless performance and accessibility.
-                    </li>
-                    <li>
-                        Collaborated closely with cross-functional teams, including developers and business analysts, to align chatbot functionalities with project goals.
-                    </li>
-                   </ul>
-				   <strong> Testing Experience </strong>
-                <ul>
-			<li>Worked as a Manual Tester in Air Cargo Reservation and Capacity Application upgrade.  
-			</li>
-                    <li>
-                        Leveraged analytical expertise to collaborate with cross-functional teams, identifying patterns in software defect data and providing insights that significantly reduced testing time by 20% and improved defect detection rate by 15%.
-                    </li>
-                    <li>
-                        Developed a robust testing strategy utilizing data analysis to pinpoint high-risk software areas, enhancing testing efficiency.
-                    </li>
-                    <li>
-                        Meticulously identified and documented defects, utilizing Jira for agile project management, and performed thorough regression testing to ensure sustained software performance.
-                    </li>
-					<li>
-						Received <strong>"On the Spot"</strong> award for exceptional contribution in Accenture for FY21 H2 and <strong>"The Extra Mile Award"</strong> in Offshore - Team Category for outstanding contribution to Clients, People, and Organization.
-                    </li>
-                   </ul>
-                </p>
-            </div> -->
-<!-- Letsgrowmore-->
-        <!--    <div data-date="January 2023 – February 2023">
-                <h3>LetsGrowMore</h3>
-                <h4>Data Science Intern</h4>
-                <p>
-                    <strong> Worked as a Data Science Intern and completed tasks assigned within the intern period </strong>
-                <ul>
-                    <li>
-                        Worked on Image to Pencil Sketch with Python project using OpenCV 
-                    </li>
-                    <li>
-                        Worked on developing a Neural Network that can read handwriting
-                    </li>
-                    <center> <a href="https://github.com/Kavya2099/LGMVIP-DataScience">View Projects</a>
-                    </center>
-                </ul>
-                </p>
-            </div>
-        </div>
-    </div> -->
-    <!-- End #experience --> 
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <div id="skills" >
-        <h2 class="heading">Skills</h2>
-        <ul>
-
-            <li>Python</li>
-            <li>EDA</li>
-            <li>Machine Learning</li>
-            <li>SQL</li>
-            <li>Power BI</li>
-         </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/f/mrgvgbdl">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="current-year">2024</span> Kavya D
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/Kavya2099" target="_blank"><i class="fa fa-github fa-1x" 
-                                    aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://medium.com/@Kavya2099" target="_blank"><i class="fa fa-medium "
-                                    aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/Kavya2099/" target="_blank"><i class="fa fa-linkedin "
-                                    aria-hidden="true"></i></a>
-                        </li>
-                        <!--<li>
-                            <a href="https://www.kaggle.com/kavya2099" target="_blank"><i class="fa-solid fa-kaggle fa-xs"
-                                    aria-hidden="true"></i></a> -->
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
 </body>
 
 </html>

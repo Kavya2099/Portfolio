@@ -1,28 +1,34 @@
-# Portfolio
+# Kavya D - Personal Portfolio
 
-This repository contains the code for my Data Science portfolio website, which includes my online resume, projects, work experience, skills, certifications, etc.,
+An interactive and responsive personal portfolio website showcasing my journey as an AI Engineer and Data Professional. Built to highlight projects in Machine Learning, Business Intelligence, and Generative AI.
 
-**Check it out here!!**
+## 🚀 Key Features
 
-[Kavya Portfolio Website](https://kavya2099.github.io/Portfolio/)
+- **Interactive Skills Section**: Dynamic expansion of skill categories (Gen AI, ML, Data Science Libraries, etc.) with custom icons.
+- **Project Showcase**: Curated selection of Data Science and BI projects with direct links to GitHub repositories.
+- **Blog Integration**: Integration of real Medium articles with publication dates and summaries.
+- **Responsive Design**: Optimized for seamless viewing across mobile, tablet, and desktop devices.
+- **Professional Resume**: Detailed timeline of education and professional experience with emphasized achievements.
 
-<!-- ### Quick look!!
+## 🛠️ Built With
 
-![https://kavya2099.github.io/Portfolio/](https://github.com/Kavya2099/Portfolio/blob/master/images/quick%20look.gif) -->
+- **Structure**: HTML5
+- **Styling**: CSS3 (Vanilla CSS)
+- **Logic**: JavaScript (ES6+)
+- **Icons**: [IonIcons](https://ionic.io/icons)
+- **Typography**: Poppins (Google Fonts)
 
+## 📬 Contact
 
-<div align="center">
-  
-[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-orange.svg)](https://github.com/verma-anushka/anushkaverma)
-[![Website Status](https://img.shields.io/badge/Website%20Status-Online-blue)](https://kavya2099.github.io/Portfolio/)
-[![Author](https://img.shields.io/badge/Author-Kavya-purple.svg)](https://www.linkedin.com/in/Kavya2099/)
-[![Latest Release](https://img.shields.io/badge/Latest%20Release-03%20Jan,%202023-green.svg)](https://kavya2099.github.io/Portfolio/)
+- **Email**: [d.kavya1999@gmail.com](mailto:d.kavya1999@gmail.com)
+- **LinkedIn**: [Kavya D](https://www.linkedin.com/in/kavya2099/)
+- **Medium**: [Kavya2099](https://medium.com/@Kavya2099)
 
------------------------------------------------------------------------------------------
-Forked from RyanFitzgerald/devportfolio
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/).
+## 📜 License
 
-Credits: [RyanFitzgerald](https://github.com/RyanFitzgerald/devportfolio) and [Anushka Verma](https://github.com/verma-anushka/anushkaverma)
+MIT License
 
+## 🙌 Credits
 
-
+This portfolio is based on the [vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio.git) template.
+Credits to [@codewithsadee](https://github.com/codewithsadee) for the original design.
